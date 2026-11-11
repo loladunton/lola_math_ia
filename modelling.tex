@@ -16,7 +16,7 @@ $y$ & The cards flipped from the draw pile & Dependent \\
 \bottomrule	
 \end{tabular}
 %TODO write this caption
-\caption{PLACEHOLDER}
+\caption{Variables}
 \label{tb:variables}
 \end{table}
 
@@ -44,14 +44,14 @@ Following this setback, I tried a different approach that still assessed the num
 In this new exploration, I used the following factors:
 
 Independent variable: number of the round (n) \\
-Dependent variable: length of the longest chain (c)
+Dependent variable: length of the longest chain (c) \\
 
 \subsection{Data Collection}
 
 I played 10 games of Speed, limiting each game to 5 rounds. I took count of the c value before each round, and once after the final, fifth round, producing 6 data points for each game.  
 
 Figure 9: Sample of the data found (see Appendix for full data set)
-
+%TODO include sample data set
 \subsection{Graphing}
 
 After collecting adequate data on these variables, I found the average ratio (r), for each round from 0-5, for each player individually (r1 and r2), and then found the average between those, which presented the data set:
@@ -91,7 +91,7 @@ After collecting adequate data on these variables, I found the average ratio (r)
 \end{figure}
 
 %TODO fix this mistake: want to ref 2 figs
-I tried various regression lines on this data \ref{fig:avgRvalueLogist; fig:avgRvalueExpo}, however evidently the line of best fit was the exponential graph (\ref{fig:avgRvalueLOBF}) with the following equation:
+I tried various regression lines on this data \ref{fig:avgRvalueLogist, fig:avgRvalueExpo}, however evidently the line of best fit was the exponential graph (\ref{fig:avgRvalueLOBF}) with the following equation:
 
 This graph illustrates the extreme incline and then rounding and ultimately flat-lining of the data best, especially in comparison to the others. This curve also begins by going directly up, rather than gradually ascending, such as in Fig. 13.
 From this graph, we learn that the relationship between the number of rounds played and the number of cards in the longest chain is weak in the first round, however thereafter increases sharply and settles around 0.45-0.5 without dramatically increasing or decreasing, indicating n asymptotic nature of the orderedness of cards in Speed rounds. Through a real-world lens, this ultimately indicates that while the more rounds played does result in more ordered cards, this does not perpetuate the cycle entirely until the entire deck is ordered, but rather cuts off once the deck reaches a certain level of orderedness.
