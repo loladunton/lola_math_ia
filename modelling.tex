@@ -60,24 +60,8 @@ $y$ & The length of the longest chain & Dependent \\
 
 \subsection{Data Collection}
 
-I played 10 games of Speed, limiting each game to 5 rounds. I chose 10 as the number of games' data to collect, as the values for each round began to average out around that point (see Figure \ref{}). I took count of the c value before each round, and once after the final, fifth round, producing 6 data points for each game. 
+I played 10 games of Speed, limiting each game to 5 rounds. I chose 10 as the number of games' data to collect, as the values for each round began to average out around that point (see Figure \ref{fig:10rounds1}-\ref{fig:10rounds6} below).  
  
-
-Figure 9: Sample of the data found (see Appendix for full data set)
-%TODO include sample data set
-\subsection{Graphing}
-
-After collecting adequate data on these variables, I found the average ratio (r), for each round from 0-5, for each player individually (r1 and r2), and then found the average between those, which presented the data set:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=.5]{avg_r_value.png}
-	\caption{Graph of averaged values}
-	\label{fig:avgRvalue}
-\end{figure}
-
-
-
  \begin{figure}[H]
 	\begin{minipage}[t]{0.48\textwidth} % First image takes up 48% of the width
         \centering
@@ -99,14 +83,14 @@ After collecting adequate data on these variables, I found the average ratio (r)
         \centering
         \includegraphics[width=\linewidth]{10rounds3.png}
         \caption{Round 3: graph of 10 games}
-        \label{fig:avgRvalueLogist}
+        \label{fig:10rounds3}
     \end{minipage}
     \hfill % Adds a small horizontal space between the images
     \begin{minipage}[t]{0.48\textwidth} % Second image takes up 48% of the width
         \centering
         \includegraphics[width=\linewidth]{10rounds4.png}
-        \caption{Graph with exponential regression line}
-        \label{fig:avgRvalueExpo}
+        \caption{Round 4: graph of 10 games}
+        \label{fig:10rounds4}
     \end{minipage}
 \end{figure}
 
@@ -114,18 +98,49 @@ After collecting adequate data on these variables, I found the average ratio (r)
 	\begin{minipage}[t]{0.48\textwidth} % First image takes up 48% of the width
         \centering
         \includegraphics[width=\linewidth]{10rounds5.png}
+        \caption{Round 5: graph of 10 games}
+        \label{fig:10rounds5}
+    \end{minipage}
+    \hfill % Adds a small horizontal space between the images
+    \begin{minipage}[t]{0.48\textwidth} % Second image takes up 48% of the width
+        \centering
+        \includegraphics[width=\linewidth]{10rounds6.png}
+        \caption{Round 6: graph of 10 games}
+        \label{fig:10rounds6}
+    \end{minipage}
+\end{figure}
+
+
+Figure 9: Sample of the data found (see Appendix for full data set)
+%TODO include sample data set
+
+
+\subsection{Graphing}
+
+After collecting adequate data on these variables, I found the average ratio (r), for each round from 0-5, for each player individually (r1 and r2), and then found the average between those, which presented the data set:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.5]{avg_r_value.png}
+	\caption{Graph of averaged values}
+	\label{fig:avgRvalue}
+\end{figure}
+
+ \begin{figure}[H]
+	\begin{minipage}[t]{0.48\textwidth} % First image takes up 48% of the width
+        \centering
+        \includegraphics[width=\linewidth]{avg_r_value_logist.png}
         \caption{Graph with logistic regression line}
         \label{fig:avgRvalueLogist}
     \end{minipage}
     \hfill % Adds a small horizontal space between the images
     \begin{minipage}[t]{0.48\textwidth} % Second image takes up 48% of the width
         \centering
-        \includegraphics[width=\linewidth]{10rounds6.png}
+        \includegraphics[width=\linewidth]{avg_r_value_expo.png}
         \caption{Graph with exponential regression line}
         \label{fig:avgRvalueExpo}
     \end{minipage}
 \end{figure}
-
 
 \begin{figure}[H]
 	\centering
