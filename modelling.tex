@@ -193,7 +193,7 @@ The exponential decay model has a strong $R^2$ value that indicates the graph's 
 \end{equation}
 
 
-The average orderliness at the start ($x=0$), prior to any game-playing can be derived through algebra:
+The average orderliness at the start ($n=0$), prior to any game-playing can be derived through algebra:
 
 \begin{equation}
 r(n)={a\cdot{b}^{cn}+d} \\
@@ -206,7 +206,7 @@ r(n)=0.087409 \\
 The average orderliness at the end ($n=5$), following the 5th round of game-playing can also be derived through algebra:
 
 \begin{equation}
-r(n)={a\cdot{b}^{cx}+d} \\
+r(n)={a\cdot{b}^{cn}+d} \\
 r(n)={-0.399228\cdot{0.150864}^{1.8832\cdot{5}}+0.486637} \\
 r(n)=0.4866369926 \\
 \label{endOrder}	
@@ -214,7 +214,7 @@ r(n)=0.4866369926 \\
 
 \subsection{Log-linearisation}
 
-The $d$-value is inside the exponential and so we can't directly log-transform it, therefore we need to rearrange the function before proceeding with log-linearisation:
+The $c$-value is inside the exponential and so we can't directly log-transform it, therefore we need to rearrange the function before proceeding with log-linearisation:
 
 \begin{equation}
 r(n)=a\cdot{b^{c}}+d
