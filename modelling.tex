@@ -169,8 +169,8 @@ I tried various regression lines on this data (Figure \ref{fig:avgRvalueLogist},
 
 Variables:
 
-$y$=orderedness ratio (longest chain length divided by hand-size) at round $x$
-$x$=number of rounds played
+$r(n)$=orderedness ratio (longest chain length divided by hand-size) at round $n$
+$n$=number of rounds played
 $a$=initial excess orderedness above the baseline ($d$)\\
 $b^{c}$=decay factor (if $0<b<1$ then decay)\\
 $d$=long-run baseline\\ 
@@ -192,18 +192,18 @@ And with a strong $R^2$ value that indicates the graph's accuracy to the actual 
 The average orderliness at the start ($x=0$), prior to any game-playing can be derived through algebra:
 
 \begin{equation}
-y={a\cdot{b}^{cx}+d} \\
-y=a+d \\
-y=-0.399228+0.486637 \\
-y=0.087409 \\
+r(n)={a\cdot{b}^{cn}+d} \\
+r(n)=a+d \\
+r(n)=-0.399228+0.486637 \\
+r(n)=0.087409 \\
 \label{initialOrder}	
 \end{equation}
 
-The average orderliness at the end ($x=5$), following the 5th round of game-playing can also be derived through algebra:
+The average orderliness at the end ($n=5$), following the 5th round of game-playing can also be derived through algebra:
 
 \begin{equation}
-y={a\cdot{b}^{cx}+d} \\
-y={-0.399228\cdot{0.150864}^{1.8832\cdot{5}}+0.486637} \\
+r(n)={a\cdot{b}^{cx}+d} \\
+r(n)={-0.399228\cdot{0.150864}^{1.8832\cdot{5}}+0.486637} \\
 y=0.4866369926 \\
 \label{endOrder}	
 \end{equation}
