@@ -225,6 +225,26 @@ r(n)=0.4866369926
 \label{endOrder}	
 \end{equation}
 
+\section{Theoretical Baseline}
+
+For $N$ random distinct numbers, the longest increasing chain is $2\sqrt{N}$, as it is known that:
+
+\begin{equation}
+r_\text{random}≈\frac{2\sqrt{N}}{N}=\frac{2}{\sqrt{N}} 
+\end{equation}
+
+This can be applied to the Speed data to obtain an estimate baseline for the longest chain. However, this standard is applicable for the assumption that all cards are different, while the Speed deck contains repeated ranks (four of each number), the $2\sqrt{N}$ result cannot be considered an exact prediction, but rather an approximate baseline.
+
+For the first round the deck is split so each player has 25 cards. For $N=25$:
+ 
+\begin{equation}
+r_\text{random}=\frac{2}{\sqrt{25}}
+=\frac{2}{5}
+=0.4
+\end{equation}
+
+So if the cards are random, we can expect the longest chain to be roughly 40\% of the total cards in that player's hand.
+
 
 
 \subsection{Log-linearisation}
