@@ -299,7 +299,7 @@ Now, we run a linear regression of $y$ on $n$ and record the $R^2$ of the equati
 R^2=0.9944	
 \end{equation}
 
-Now, we will repeat for a range of $c$-values around $r_random$: $c=0,25, 0.30, 0.35, 0.45$. There is a low-bias as the values become non-real at $c=0.50$
+Now, we will repeat for a range of $c$-values around $r_random$: $c=0,25, 0.30, 0.35, 0.45$. There is a low-bias as the values become non-real at $c=0.50$.
 
 
 \begin{figure}[H]
@@ -308,6 +308,8 @@ Now, we will repeat for a range of $c$-values around $r_random$: $c=0,25, 0.30, 
 	\caption{Linear regression of $c$-values= 0.25, 0.30, 0.35, 0.40, 0.45, for $y=\ln(r-c)$}
 	\label{fig:ln(r-c)}
 \end{figure}
+
+Of these different linear regressions, the graph of $c=
 
 This graph illustrates the extreme incline and then rounding and ultimately flat-lining of the data best, especially in comparison to the others. This curve also begins by going directly up, rather than gradually ascending, such as in Fig. 13.
 From this graph, we learn that the relationship between the number of rounds played and the number of cards in the longest chain is weak in the first round, however thereafter increases sharply and settles around 0.45-0.5 without dramatically increasing or decreasing, indicating n asymptotic nature of the orderedness of cards in Speed rounds. Through a real-world lens, this ultimately indicates that while the more rounds played does result in more ordered cards, this does not perpetuate the cycle entirely until the entire deck is ordered, but rather cuts off once the deck reaches a certain level of orderedness.
