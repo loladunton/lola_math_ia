@@ -158,7 +158,7 @@ After collecting adequate data on these variables, I found the average ratio (r)
 	\label{fig:avgRvalueLOBF}
 \end{figure}
 
-\subsection{Exponential decay model}
+\section{Exponential decay model}
 
 I tried various regression lines on this data (Figure \ref{fig:avgRvalueLogist}, \ref{fig:avgRvalueExpo}), however evidently the line of best fit was the exponential graph (\ref{fig:avgRvalueLOBF}) with the following equation:
 
@@ -248,7 +248,7 @@ So if the cards are random, we can expect the longest chain to be roughly 40\% o
 
 
 
-\subsection{Log-linearisation}
+\section{Log-linearisation}
 
 The $c$-value is inside the exponential and so we can't directly log-transform it, therefore we need to guess the $c$-value, then log-transform the remaining function. Before proceeding with log-linearisation, we need to rearrange the function:
 
@@ -273,6 +273,8 @@ This is now linear in the form $y=mx+b$ where:
 	\item $m$ (slope) = ln($b$)
 	\item $c$ (intercept) = ln($a$) 
 \end{itemize}
+
+\subsection{Finding $c$}
 
 Here, we need to make an educated guess for the value of $c$, before proceeding with linear regression. To do this, we will use the $r_{random}$ value from the baseline estimation, therefore $c=0.4$. Following this assumption, collected data is processed through 
 \begin{equation}
