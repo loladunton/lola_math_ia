@@ -276,7 +276,7 @@ This is now linear in the form $y=mx+b$ where:
 
 \subsection{Finding $c$}
 
-Here, we need to make an educated guess for the value of $c$, before proceeding with linear regression. To do this, we will use the $r_{random}$ value from the baseline estimation, therefore $c=0.40$. Following this assumption, collected data is processed through 
+Here, we need to make an educated guess for the value of $c$, before proceeding with linear regression. To do this, we will use the $r_{random}$ value from the baseline estimation, therefore $c=0.40$. Following this assumption, collected data is processed through: 
 \begin{equation}
 	y_i=\ln(r_i-c)
 \end{equation}
@@ -284,7 +284,7 @@ With the exclusion of any values where $r_i-c<0$ as this would prove invalid. Us
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=.5]{ln(r-c).png}
+	\includegraphics[scale=.3]{ln(r-c).png}
 	\caption{Table of $y_i=\ln(r_i-c)$}
 	\label{fig:ln(r-c)}
 \end{figure}
